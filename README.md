@@ -1,6 +1,6 @@
 # PyTorch Autoencoder for CIFAR-10 Image Reconstruction
 
-This repository contains a Python project that implements an autoencoder using PyTorch to reconstruct images from the CIFAR-10 dataset. The autoencoder is designed to learn encodings of images, enabling it to reconstruct individual images. Given a combination of two images, the model can reconstruct each image separately.
+This repository contains a implementation of an autoencoder using PyTorch to reconstruct images from the CIFAR-10 dataset. The autoencoder is designed to learn encodings of images, enabling it to reconstruct individual images. Given a combination of two images, the model can reconstruct each image separately. Originally implemented for my Artificial Neural Networks course in fall 2022.
 
 ## Table of Contents
 
