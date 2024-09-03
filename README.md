@@ -21,7 +21,7 @@ The autoencoder can:
 - Reconstruct individual images from the dataset.
 - Reconstruct each image separately when given a combination of two images.
 
-This implementation is built using PyTorch and is contained within a single Jupyter Notebook.
+This implementation is built using PyTorch and is contained within a single Jupyter Notebook. The model was trained for 10 epochs first and tested, then it was trained for another 20 epochs and the results were compared.
 A separate autoencoder with the aim of simply reconstructing a single image is also provided as a bonus at the end of the file.
 
 
@@ -62,10 +62,10 @@ Below are examples of images reconstructed by the autoencoder:
 ### Single Image Sample
 ![Sample 3](./Samples/Single_Image_Reconstruction.jpg)
 
-### Combined Image Sample 1
+### Combined Image Sample 1 (10 training epochs)
 ![Sample 1](./Samples/Combined_Image_Reconstruction_1.jpg)
 
-### Combined Image Sample 2
+### Combined Image Sample 2 (30 training epochs)
 ![Sample 2](./Samples/Combined_Image_Reconstruction_2.jpg)
 
 
